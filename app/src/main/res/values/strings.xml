@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">InGameApps</string>
+    <string name="apps">Aplikasi Game Education</string>
+    <string name="apps_desc">Aplikasi yang berisi edukasi tentang game</string>
+    <string name="starts">MULAI</string>
+    <string name="tentangkami">Tentang Kami</string>
+    <string name="game">EduGame</string>
+    <string name="alarm">Alarm</string>
+    <string name="start">START</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="alarm_on">Alarm Menyala</string>
+    <string name="alarm_off">Matikan Alarm</string>
+    <string name="kegiatan">Kegiatan</string>
+    <string name="submit">SUBMIT</string>
+    <string name="kuisioner">Kuisioner</string>
+    <string name="intro_1">Hallo! Nama saya Felicia</string>
+    <string name="intro_1.1">Saya adalah Mahasiswa S1\nKeperawatan</string>
+    <string name="intro_1.2">Saya akan menjelaskan tentang\nGame Addiction</string>
+    <string name="intro_2">Hallo! dan Nama saya Nata</string>
+    <string name="intro_2.1">Dan Saya Siswa SMA kelas 3</string>
+    <string name="intro_2.2">Saya akan menjadi narasumber\nSecara saya adalah pecandu\nGame juga</string>
+    <string name="lanjutk">Lanjut</string>
+    <string name="content1">Sedikit penjelasan tentang\nGame addict, Adalah\nSebuah kecanduan terhadap game\ndalam jangka waktu yang lama\nApakah begitu Nata?</string>
+    <string name="content1.1">Benar sekali!\nSaya sering bermain game terlalu\nlama dan saya bisa\nmenghabiskan waktu berjam-jam</string>
+    <string name="content2.1">Umumnya bermain game menurut\nkesehatan adalah 2 jam sehari\nbiasanya untuk menghilangkan\nstress.</string>
+    <string name="content2.2">Ohh begitu ya kak.\nKedepannya saya akan mengurangi\njam bermain game saya</string>
+    <string name="content3.1">Saya punya video pembejalaran\nTentang Kecanduan game di bawah ini\nHarap di tonton dan di cermati.</string>
+    <string name="closing.1">Sekian dari saya Felicia\nApabila ada pertanyaan silahkan\nDitanyakan di Instagram\n@priskawul_</string>
+    <string name="closing.1.1">Saya Nata juga pamit\nSekian Dan Terima Kasih!</string>
+</resources>

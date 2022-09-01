@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kzuferdy.ingameapps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InGameApps">
+        <activity
+            android:name=".game.closing.ClosingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".game.content.Content3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".game.content.Content2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".game.content.Content1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".game.introduction.Introduction3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".game.introduction.Introduction2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".kuisioner.MainKuisionerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.InGameApps" />
+        <activity
+            android:name=".game.introduction.Introduction1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".game.GameOnboardingScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kegiatan.KegiatanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".alarm.AlarmOnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".alarm.AlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kuisioner.QuizQuestionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kuisioner.ResultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.InGameApps" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".alarm.MyBroadcastReceiver" />
+    </application>
+
+</manifest>
